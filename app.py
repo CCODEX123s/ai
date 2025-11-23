@@ -6,7 +6,7 @@ app = Flask(__name__)
 # --- Configuration ---
 SAMBA_API_KEY = "628081f7-96e9-4bf1-a467-488a2f33284c"
 SAMBA_URL = "https://api.sambanova.ai/v1/chat/completions"
-LOCAL_API_KEY = "NR-CODEX"  # Your custom access key
+LOCAL_API_KEY = "CODEX"  # Your custom access key
 
 @app.route("/ask", methods=["GET"])
 def ask_sambanova():
